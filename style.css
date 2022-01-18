@@ -1,0 +1,172 @@
+html {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-image: url("./assets/images/background.jpeg");
+    background-size: cover;
+    box-shadow: inset -100px -100px 100px 200px rgba(0, 0, 0, 0.5), inset 100px 100px 100px 200px rgba(0, 0, 0, 0.5);
+    height: 700px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50px;
+    margin: 20px 0 20px 50px;
+}
+
+#header-options {
+    margin: 0 50px 0 0
+}
+
+#language-btn {
+    background-color: transparent;
+    color: white;
+    height: 35px;
+    width: 90px;
+    border-radius: 3px;
+    margin: 0 20px 0 0;
+}
+
+.btn{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 200;
+    background-color: #E50815;
+}
+
+.btn:hover {
+    background-color: #F40612;
+}
+
+#login-btn {
+    color: white;
+    height: 35px;
+    width: 70px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#main-text {
+    color: white;
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin: 10px;
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#main-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#email-input {
+    border: 0;
+    width: 550px;
+    height: 60px;
+    border-radius: 2px 0 0 2px;
+    padding: 0;
+    margin-right: 1px;
+}
+
+#email-input::-webkit-input-placeholder{
+    color:#8C8C8C;
+    font-size: 15px;
+    padding-left:20px;
+}
+
+#start-btn {
+    color: white;
+    font-size: 25px;
+    border: 0;
+    width: 150px;
+    height: 60px;
+    border-radius: 0 2px 2px 0;
+}
+
+.section {
+    color: white;
+    background-color: black;
+    border-top: solid 8px #222222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section-title{
+    justify-content:left
+}
+
+
+
+/* ***** Media Queries ***** */
+@media (max-width: 1000px)
+{
+    #main-register {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #email-input {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 800px)
+{
+    h1{
+        font-size: 6vw;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    #email-input {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    #logo {
+        height: 10vw;
+        margin: 20px 0 20px 20px;
+    }
+
+    #header-options {
+        margin: 0 20px 0 0
+    }
+}
