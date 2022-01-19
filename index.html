@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;500&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Movieflix Brasil</title>
 </head>
@@ -16,9 +17,9 @@
         <header>
             <img id="logo" src="./assets/images/logo.png"><img>
             <div id="header-options">
-                <select id="language-btn">
-                    <option value="english"> English</option>
-                    <option value="português">Português</option>
+                <select id="language-btn-top">
+                    <option value="english">Português</option>
+                    <option value="português">English</option>
                 </select>
                 <button class="btn" id="login-btn">Entrar</button>
             </div>
@@ -27,7 +28,7 @@
             <h1>Filmes, séries e muito mais. <br /> Sem limites</h1>
             <h2>Assista onde quiser. Cancele quando quiser.</h2>
             <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-            <div id="main-register">
+            <div class="main-register">
                 <input id="email-input" type="email" placeholder="Email"></input>
                 <button class="btn" id="start-btn">Vamos lá </button>
             </div>
@@ -84,44 +85,104 @@
             <div class="collapse-questions">
                 <button type="button" class="collapsible">O que é a Movieflix?</button>
                 <div class="content">
-                    <p>A Movieflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.</p>
-                    <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.</p>
+                    <p>A Movieflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes
+                        e documentários premiados em milhares de aparelhos conectados à internet.</p>
+                    <p>Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo
+                        por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana,
+                        adicionamos novas séries e filmes.</p>
                 </div>
             </div>
             <div class="collapse-questions">
                 <button type="button" class="collapsible">Quanto custa a Movieflix?</button>
                 <div class="content">
-                    <p>Assista à Movieflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.</p>
+                    <p>Assista à Movieflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma
+                        taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas extras.
+                    </p>
                 </div>
             </div>
             <div class="collapse-questions">
                 <button type="button" class="collapsible">Onde posso assistir?</button>
                 <div class="content">
-                    <p>Assista onde quiser, quando quiser. Faça login com sua conta Movieflix em movieflix.com para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o aplicativo Movieflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.</p>
-                    <p>Você também pode baixar a sua série favorita com o aplicativo Movieflix para iOS, Android ou Windows 10. Use downloads para levar a Movieflix para onde quiser sem precisar de conexão com a Internet. Leve a Movieflix com você para qualquer lugar.</p>
+                    <p>Assista onde quiser, quando quiser. Faça login com sua conta Movieflix em movieflix.com para
+                        começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com o
+                        aplicativo Movieflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
+                    </p>
+                    <p>Você também pode baixar a sua série favorita com o aplicativo Movieflix para iOS, Android ou
+                        Windows 10. Use downloads para levar a Movieflix para onde quiser sem precisar de conexão com a
+                        Internet. Leve a Movieflix com você para qualquer lugar.</p>
                 </div>
             </div>
             <div class="collapse-questions">
                 <button type="button" class="collapsible">Como faço para cancelar?</button>
                 <div class="content">
-                    <p>A Movieflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.</p>
+                    <p>A Movieflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na
+                        internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a
+                        sua assinatura a qualquer momento.</p>
                 </div>
             </div>
             <div class="collapse-questions">
                 <button type="button" class="collapsible">O que eu posso assistir na Movieflix?</button>
                 <div class="content">
-                    <p>A Movieflix tem um grande catálogo de filmes, documentários, séries, originais Movieflix premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
+                    <p>A Movieflix tem um grande catálogo de filmes, documentários, séries, originais Movieflix
+                        premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
                 </div>
             </div>
             <div class="collapse-questions">
                 <button type="button" class="collapsible">A Movieflix é adequada para crianças?</button>
                 <div class="content">
-                    <p>A experiência infantil da Movieflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.</p>
-                    <p>O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN, permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos específicos que você não quer que elas assistam.</p>
+                    <p>A experiência infantil da Movieflix faz parte da sua assinatura para que as crianças se divirtam
+                        em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.</p>
+                    <p>O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN, permite
+                        restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos
+                        específicos que você não quer que elas assistam.</p>
                 </div>
+            </div>
+            <br>
+            <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+            <div class="main-register" id="main-register-bottom">
+                <input id="email-input" type="email" placeholder="Email"></input>
+                <button class="btn" id="start-btn">Vamos lá </button>
             </div>
         </div>
     </section>
+
+    <footer class="section" id="section5">
+        <div id="footer-container">
+            <p>Dúvidas? Ligue 0800-787-6872</p>
+            <div id="footer-options">
+                <ul>
+                    <li><a class="footer-links" href="#">Perguntas frequentes</a></li>
+                    <li><a class="footer-links" href="#">Centro de ajuda</a></li>
+                    <li><a class="footer-links" href="#">Conta</a></li>
+                    <li><a class="footer-links" href="#">Media Center</a></li>
+                    <li><a class="footer-links" href="#">Relações com investidores</a></li>
+                </ul>
+                <ul>
+                    <li><a class="footer-links" href="#">Carreiras</a></li>
+                    <li><a class="footer-links" href="#">Resgatar cartão pré-pago</a></li>
+                    <li><a class="footer-links" href="#">Comprar cartão pré-pago</a></li>
+                    <li><a class="footer-links" href="#">Formas de assistir</a></li>
+                </ul>
+                <ul>
+                    <li><a class="footer-links" href="#">Termos de uso</a></li>
+                    <li><a class="footer-links" href="#">Privacidade</a></li>
+                    <li><a class="footer-links" href="#">Preferências de cookies</a></li>
+                    <li><a class="footer-links" href="#">Informações corporativas</a></li>
+                </ul>
+                <ul>
+                    <li><a class="footer-links" href="#">Entre em contato</a></li>
+                    <li><a class="footer-links" href="#">Teste de velocidade</a></li>
+                    <li><a class="footer-links" href="#">Avisos legais</a></li>
+                    <li><a class="footer-links" href="#">Só na Netflix</a></li>
+                </ul>
+            </div>
+            <select id="language-btn-bottom">
+                <option value="english">Português</option>
+                <option value="português">English</option>
+            </select>
+            <p>Movieflix Brasil</p>
+        </div>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
